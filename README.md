@@ -165,3 +165,6 @@ However, when our data is skewed, for example, as with the right-skewed data set
 We find that the mean is being dragged in the direct of the skew. In these situations, the median is generally considered to be the best representative of the central location of the data
 
 ![image](https://user-images.githubusercontent.com/108605935/207293381-f180f134-f436-432a-bd53-1f91c0837e07.png)
+
+Source : https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php 
+
