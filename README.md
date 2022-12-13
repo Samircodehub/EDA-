@@ -62,3 +62,38 @@ Using one-hot encoding increases the dimensionality of the data set. Label encod
 Often times people think that one-hot encoding and dummy-encoding are exactly the same thing, but that's not entirely true. If you use pandas pd.get_dummies() for dummy-encoding, the default value of the option drop_first is set to False, which basically results in one-hot encoding. But if you set drop_first = True, there are less generated columns, as one can see in the image.
 
 
+## Categorical values
+* Nominal Categories
+Nominal categories are unordered e.g. colours, sex, nationality.
+Ordinal Categories
+* Ordinal categories are ordered, e.g. school grades, price ranges, salary bands.
+source: https://benalexkeen.com/mapping-categorical-data-in-pandas/ 
+
+# When to not use One-Hot and Dummy Encoding
+One hot encoder and dummy encoder are two powerful and effective encoding schemes. They are also very popular among the data scientists, But may not be as effective when-
+
+A large number of levels are present in data. If there are multiple categories in a feature variable in such a case we need a similar number of dummy variables to encode the data. For example, a column with 30 different values will require 30 new variables for coding.
+If we have multiple categorical features in the dataset similar situation will occur and again we will end to have several binary features each representing the categorical feature and their multiple categories e.g a dataset having 10 or more categorical columns.
+In both the above cases, these two encoding schemes introduce sparsity in the dataset i.e several columns having 0s and a few of them having 1s. In other words, it creates multiple dummy features in the dataset without adding much information.
+
+Also, they might lead to a Dummy variable trap. It is a phenomenon where features are highly correlated. That means using the other variables, we can easily predict the value of a variable.
+Due to the massive increase in the dataset, coding slows down the learning of the model
+
+
+One-Hot Encoding
+![image](https://user-images.githubusercontent.com/108605935/207285705-6dc366de-8203-4282-9219-cccc0225ba69.png)
+#Fit and transform Data
+data_encoded = encoder.fit_transform(data)
+data_encoded
+![image](https://user-images.githubusercontent.com/108605935/207285978-c7f8c0bf-311e-441e-9e9b-cd439daad31d.png)
+
+Dummy Encoding
+![image](https://user-images.githubusercontent.com/108605935/207286459-c9db1235-886d-422d-a1f3-124e04810658.png)
+
+#encode the data
+data_encoded=pd.get_dummies(data=data,drop_first=True)
+data_encoded
+![image](https://user-images.githubusercontent.com/108605935/207286659-e1a07f7a-deba-4b65-964d-2721f2aa4347.png)
+
+
+
