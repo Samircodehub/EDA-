@@ -81,18 +81,24 @@ Due to the massive increase in the dataset, coding slows down the learning of th
 
 
 One-Hot Encoding
+
 ![image](https://user-images.githubusercontent.com/108605935/207285705-6dc366de-8203-4282-9219-cccc0225ba69.png)
+
 #Fit and transform Data
 data_encoded = encoder.fit_transform(data)
 data_encoded
+
 ![image](https://user-images.githubusercontent.com/108605935/207285978-c7f8c0bf-311e-441e-9e9b-cd439daad31d.png)
 
+
 Dummy Encoding
+
 ![image](https://user-images.githubusercontent.com/108605935/207286459-c9db1235-886d-422d-a1f3-124e04810658.png)
 
 #encode the data
 data_encoded=pd.get_dummies(data=data,drop_first=True)
 data_encoded
+
 ![image](https://user-images.githubusercontent.com/108605935/207286659-e1a07f7a-deba-4b65-964d-2721f2aa4347.png)
 
 
