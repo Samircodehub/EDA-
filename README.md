@@ -1,30 +1,19 @@
-# EDA-
-
-plt.subplot()
-
-![image](https://user-images.githubusercontent.com/108605935/207088450-97bb4f9e-6998-4ec2-a025-0c80026ca54b.png)
-![image](https://user-images.githubusercontent.com/108605935/207232327-2f5ef984-7323-4257-949e-28e34bd07a32.png)
-
-
-![image](https://user-images.githubusercontent.com/108605935/207231911-b87e5e2f-b406-449c-9452-b2701f0457e0.png)
-
-Nominal data is a data where we cant order any categoes in order. While ordinal data is a data where categories can be ordered in meaningful way.
-Nominal data include country, gender, race, hair color etc. of a group of people, while that of ordinal data includes having a position in class as “First” or “Second”
-
 
 # Exploratory Data Analysis(EDA)
 In EDA as soon as possible we get the raw data because the entire Features engineering is actually done on the raw data itself.
 So as soon as possible we get the raw we start doing the analysis now question arises here is that what kind of analysis we do ?
 
-Check how many numerical features may be there . (we try to see numerical features with the help of drawing of different diagrams like histogram , pdf function )
-Check categorical features ( In categorical features we are try the analyze category features like how many category feature may be there . In those feature may be we have multiple categories)
-Checking for missing values (For checking checking missing value just try to visualize all the graphs all these graphs )
-.Checking for outlier ( We can simply check whether there are outliers with help of box plot)
-Handling Missing values ( There are many ways to handel missing value like mean , mode , median and many more )
-Handling imbalanced Data Set
-Treating Outliers
-Scaling down the data (standardization and normalization)
-Converting categorical data to numerical data(One hot encoding, Label encoding)
+* Check how many numerical features may be there . (we try to see numerical features with the help of drawing of different diagrams like histogram , pdf function )
+* Check categorical features ( In categorical features we are try the analyze category features like how many category feature may be there . In those feature may be we have multiple categories)
+### EDA
+* Checking for missing values (For checking checking missing value just try to visualize all the graphs all these graphs )
+* Checking for outlier ( We can simply check whether there are outliers with help of box plot)
+### Feature Engineering (Data Pre processing)
+* Handling Missing values ( There are many ways to handel missing value like mean , mode , median and many more )
+* Handling imbalanced Data Set
+* Treating Outliers
+* Scaling down the data (standardization and normalization)
+* Converting categorical data to numerical data(One hot encoding, Label encoding)
 
 # Using StandardScaler() Function to Standardize Python Data
 Standardization is a scaling technique wherein it makes the data scale-free by converting the statistical distribution of the data into the below format:
@@ -100,10 +89,12 @@ data_encoded
 
 
 plt.subplot()
+
 ![image](https://user-images.githubusercontent.com/108605935/207088450-97bb4f9e-6998-4ec2-a025-0c80026ca54b.png)
 ![image](https://user-images.githubusercontent.com/108605935/207232327-2f5ef984-7323-4257-949e-28e34bd07a32.png)
 
 ![image](https://user-images.githubusercontent.com/108605935/207231911-b87e5e2f-b406-449c-9452-b2701f0457e0.png)
+
 Nominal data is a data where we cant order any categoes in order. While ordinal data is a data where categories can be ordered in meaningful way.
 Nominal data include country, gender, race, hair color etc. of a group of people, while that of ordinal data includes having a position in class as “First” or “Second”
 
