@@ -7,5 +7,6 @@ plt.subplot()
 
 
 ![image](https://user-images.githubusercontent.com/108605935/207231911-b87e5e2f-b406-449c-9452-b2701f0457e0.png)
+
 Nominal data is a data where we cant order any categoes in order. While ordinal data is a data where categories can be ordered in meaningful way.
 Nominal data include country, gender, race, hair color etc. of a group of people, while that of ordinal data includes having a position in class as “First” or “Second”
