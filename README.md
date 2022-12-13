@@ -102,4 +102,66 @@ data_encoded
 ![image](https://user-images.githubusercontent.com/108605935/207286659-e1a07f7a-deba-4b65-964d-2721f2aa4347.png)
 
 
+# Heatmap in Seaborn
+heat map to determine the correlation between multiple variables.
+It draw graphical representation of data  as a matrix of columns and rows.
+Heat maps describ correlation among several numerical variables, visualizing patterns and anomalies.
+It measures both strength and direction of the linear relationship between variables.
+The correlation matrix shows how the variables are correlated to each other on a scale of -1 to 1, with 1 being a perfect positive correlation and -1 being a perfect inverse correlation.
 
+A positive correlation exists when two variables operate in unison so that when one variable rises or falls, the other does the same. A negative correlation is when two variables move opposite one another so that when one variable rises, the other falls.
+Source : https://www.naukri.com/learning/articles/heatmap-in-seaborn/ 
+* eg. 
+* 
+![image](https://user-images.githubusercontent.com/108605935/207290427-1117c8ae-1c11-447c-a494-6fb18097f979.png)
+
+From our heatmap above, we can infer the following:
+
+* Features ‘city mpg’ and ‘highway MPG’ have a strong positive correlation with a value of 0.89
+* Features ‘Engine Cylinders’ and ‘Engine HP’ also have a strong positive correlation with a value of 0.78
+* Another positive correlation is between features ‘Engine Cylinders’ and ‘Engine HP’ with feature ‘MSRP’. The values being 0.53 and 0.66 respectively
+* Feature ‘Engine Cylinders’ has a strong negative correlation with features ‘city mpg’ and ‘highway MPG’ with values -0.6 and -0.62 respectively
+
+
+# FAQs - Measures of Central Tendency
+
+1. What is the best measure of central tendency?
+There can often be a "best" measure of central tendency with regards to the data you are analysing, but there is no one "best" measure of central tendency. This is because whether you use the median, mean or mode will depend on the type of data you have (see our Types of Variable guide), such as nominal or continuous data; whether your data has outliers and/or is skewed; and what you are trying to show from your data. Further considerations of when to use each measure of central tendency is found in our guide on the previous page.
+
+2. In a strongly skewed distribution, what is the best indicator of central tendency?
+It is usually inappropriate to use the mean in such situations where your data is skewed. You would normally choose the median or mode, with the median usually preferred. This is discussed on the previous page under the subtitle, "When not to use the mean".
+
+3. Does all data have a median, mode and mean?
+Yes and no. All continuous data has a median, mode and mean. However, strictly speaking, ordinal data has a median and mode only, and nominal data has only a mode. However, a consensus has not been reached among statisticians about whether the mean can be used with ordinal data, and you can often see a mean reported for Likert data in research.
+
+4. When is the mean the best measure of central tendency?
+The mean is usually the best measure of central tendency to use when your data distribution is continuous and symmetrical, such as when your data is normally distributed. However, it all depends on what you are trying to show from your data.
+
+5. When is the mode the best measure of central tendency?
+The mode is the least used of the measures of central tendency and can only be used when dealing with nominal data. For this reason, the mode will be the best measure of central tendency (as it is the only one appropriate to use) when dealing with nominal data. The mean and/or median are usually preferred when dealing with all other types of data, but this does not mean it is never used with these data types.
+
+6. When is the median the best measure of central tendency?
+The median is usually preferred to other measures of central tendency when your data set is skewed (i.e., forms a skewed distribution) or you are dealing with ordinal data. However, the mode can also be appropriate in these situations, but is not as commonly used as the median.
+
+7. What is the most appropriate measure of central tendency when the data has outliers?
+The median is usually preferred in these situations because the value of the mean can be distorted by the outliers. However, it will depend on how influential the outliers are. If they do not significantly distort the mean, using the mean as the measure of central tendency will usually be preferred.
+
+8. In a normally distributed data set, which is greatest: mode, median or mean?
+If the data set is perfectly normal, the mean, median and mean are equal to each other (i.e., the same value).
+
+9. For any data set, which measures of central tendency have only one value?
+The median and mean can only have one value for a given data set. The mode can have more than one value
+
+
+We often test whether our data is normally distributed because this is a common assumption underlying many statistical tests. An example of a normally distributed set of data is presented below:
+
+![image](https://user-images.githubusercontent.com/108605935/207292786-55ef4644-5deb-40fd-894d-36488e958c7b.png)
+
+When you have a normally distributed sample you can legitimately use both the mean or the median as your measure of central tendency. In fact, in any symmetrical distribution the mean, median and mode are equal. However, in this situation, the mean is widely preferred as the best measure of central tendency because it is the measure that includes all the values in the data set for its calculation, and any change in any of the scores will affect the value of the mean. This is not the case with the median or mode.
+
+However, when our data is skewed, for example, as with the right-skewed data set below:
+![image](https://user-images.githubusercontent.com/108605935/207292913-4e3c3970-f0ac-4b9f-ad1f-b5220c2b7f1b.png)
+
+We find that the mean is being dragged in the direct of the skew. In these situations, the median is generally considered to be the best representative of the central location of the data
+
+![image](https://user-images.githubusercontent.com/108605935/207293381-f180f134-f436-432a-bd53-1f91c0837e07.png)
