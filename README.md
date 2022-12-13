@@ -126,33 +126,33 @@ From our heatmap above, we can infer the following:
 # FAQs - Measures of Central Tendency
 
 1. What is the best measure of central tendency?
-There can often be a "best" measure of central tendency with regards to the data you are analysing, but there is no one "best" measure of central tendency. This is because whether you use the median, mean or mode will depend on the type of data you have (see our Types of Variable guide), such as nominal or continuous data; whether your data has outliers and/or is skewed; and what you are trying to show from your data. Further considerations of when to use each measure of central tendency is found in our guide on the previous page.
+* There can often be a "best" measure of central tendency with regards to the data you are analysing, but there is no one "best" measure of central tendency. This is because whether you use the median, mean or mode will depend on the type of data you have (see our Types of Variable guide), such as nominal or continuous data; whether your data has outliers and/or is skewed; and what you are trying to show from your data. Further considerations of when to use each measure of central tendency is found in our guide on the previous page.
 
 2. In a strongly skewed distribution, what is the best indicator of central tendency?
-It is usually inappropriate to use the mean in such situations where your data is skewed. You would normally choose the median or mode, with the median usually preferred. This is discussed on the previous page under the subtitle, "When not to use the mean".
+* It is usually inappropriate to use the mean in such situations where your data is skewed. You would normally choose the median or mode, with the median usually preferred. This is discussed on the previous page under the subtitle, "When not to use the mean".
 
 3. Does all data have a median, mode and mean?
-Yes and no. All continuous data has a median, mode and mean. However, strictly speaking, ordinal data has a median and mode only, and nominal data has only a mode. However, a consensus has not been reached among statisticians about whether the mean can be used with ordinal data, and you can often see a mean reported for Likert data in research.
+* Yes and no. All continuous data has a median, mode and mean. However, strictly speaking, ordinal data has a median and mode only, and nominal data has only a mode. However, a consensus has not been reached among statisticians about whether the mean can be used with ordinal data, and you can often see a mean reported for Likert data in research.
 
 4. When is the mean the best measure of central tendency?
-The mean is usually the best measure of central tendency to use when your data distribution is continuous and symmetrical, such as when your data is normally distributed. However, it all depends on what you are trying to show from your data.
+* The mean is usually the best measure of central tendency to use when your data distribution is continuous and symmetrical, such as when your data is normally distributed. However, it all depends on what you are trying to show from your data.
 
 5. When is the mode the best measure of central tendency?
-The mode is the least used of the measures of central tendency and can only be used when dealing with nominal data. For this reason, the mode will be the best measure of central tendency (as it is the only one appropriate to use) when dealing with nominal data. The mean and/or median are usually preferred when dealing with all other types of data, but this does not mean it is never used with these data types.
+* The mode is the least used of the measures of central tendency and can only be used when dealing with nominal data. For this reason, the mode will be the best measure of central tendency (as it is the only one appropriate to use) when dealing with nominal data. The mean and/or median are usually preferred when dealing with all other types of data, but this does not mean it is never used with these data types.
 
 6. When is the median the best measure of central tendency?
-The median is usually preferred to other measures of central tendency when your data set is skewed (i.e., forms a skewed distribution) or you are dealing with ordinal data. However, the mode can also be appropriate in these situations, but is not as commonly used as the median.
+* The median is usually preferred to other measures of central tendency when your data set is skewed (i.e., forms a skewed distribution) or you are dealing with ordinal data. However, the mode can also be appropriate in these situations, but is not as commonly used as the median.
 
 7. What is the most appropriate measure of central tendency when the data has outliers?
-The median is usually preferred in these situations because the value of the mean can be distorted by the outliers. However, it will depend on how influential the outliers are. If they do not significantly distort the mean, using the mean as the measure of central tendency will usually be preferred.
+* The median is usually preferred in these situations because the value of the mean can be distorted by the outliers. However, it will depend on how influential the outliers are. If they do not significantly distort the mean, using the mean as the measure of central tendency will usually be preferred.
 
 8. In a normally distributed data set, which is greatest: mode, median or mean?
-If the data set is perfectly normal, the mean, median and mean are equal to each other (i.e., the same value).
+* If the data set is perfectly normal, the mean, median and mean are equal to each other (i.e., the same value).
 
 9. For any data set, which measures of central tendency have only one value?
-The median and mean can only have one value for a given data set. The mode can have more than one value
+* The median and mean can only have one value for a given data set. The mode can have more than one value
 
-
+##
 We often test whether our data is normally distributed because this is a common assumption underlying many statistical tests. An example of a normally distributed set of data is presented below:
 
 ![image](https://user-images.githubusercontent.com/108605935/207292786-55ef4644-5deb-40fd-894d-36488e958c7b.png)
