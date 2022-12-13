@@ -56,6 +56,9 @@ Label Encoding is converting labels/words into numeric form
 Using one-hot encoding increases the dimensionality of the data set. Label encoding doesn’t affect the dimensionality of the data set. One-hot encoding creates a new variable for each level in the variable whereas, in Label encoding, the levels of a variable get encoded as 1 and 0.
 ![image](https://user-images.githubusercontent.com/108605935/207283418-1b2cde66-0e97-40b4-b1f3-2569ae9e6792.png)
 
+#  People think that one-hot encoding and dummy-encoding are exactly the same thing, but that's not entirely true.
+![image](https://user-images.githubusercontent.com/108605935/207284030-20100424-0c4b-493e-8f9e-c8889888cdac.png)
 
+Often times people think that one-hot encoding and dummy-encoding are exactly the same thing, but that's not entirely true. If you use pandas pd.get_dummies() for dummy-encoding, the default value of the option drop_first is set to False, which basically results in one-hot encoding. But if you set drop_first = True, there are less generated columns, as one can see in the image.
 
 
