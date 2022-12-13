@@ -164,3 +164,5 @@ We find that the mean is being dragged in the direct of the skew. In these situa
 
 Source : https://statistics.laerd.com/statistical-guides/measures-central-tendency-mean-mode-median.php 
 
+ML Project reffe :
+https://www.kaggle.com/code/harshjain123/step-by-step-ml-project/notebook#-STROKE-RISK-PREDICTION-
