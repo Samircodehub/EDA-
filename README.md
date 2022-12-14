@@ -166,3 +166,6 @@ Source : https://statistics.laerd.com/statistical-guides/measures-central-tenden
 
 ML Project reffe :
 https://www.kaggle.com/code/harshjain123/step-by-step-ml-project/notebook#-STROKE-RISK-PREDICTION-
+https://www.kaggle.com/code/pariaagharabi/step-by-step-fetal-health-prediction-99-detailed
+https://www.kaggle.com/code/harshjain123/step-by-step-ml-project/notebook
+https://www.kaggle.com/code/harshjain123/breast-cancer-exploratory-data-analysis
